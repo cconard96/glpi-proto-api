@@ -1,0 +1,25 @@
+{
+    "name": "cconard/api",
+    "authors": [
+        {
+            "name": "cconard96",
+            "email": "cconard96@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/config": "^5.1",
+        "symfony/dependency-injection": "^5.1",
+        "symfony/http-kernel": "^5.1.0",
+        "symfony/event-dispatcher": "^5.1.0",
+        "symfony/framework-bundle": "^5.1",
+        "symfony/routing": "^5.1.0",
+        "symfony/yaml": "^5.1",
+        "doctrine/annotations": "^1.11",
+        "symfony/console": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlpiPlugin\\API\\": "src/"
+        }
+    }
+}

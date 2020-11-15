@@ -1,0 +1,17 @@
+parameters:
+  kernel.root_dir: "%kernel.project_dir%"
+  container.dumper.inline_factories: true
+  container.dumper.inline_class_loader: true
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  GlpiPlugin\API\:
+    resource: '../src/*'
+    exclude: '../src/{Controller,Kernel.php}'
+
+  GlpiPlugin\API\Controller\:
+    resource: '../src/Controller'
+    tags: ['controller.service_arguments']
