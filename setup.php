@@ -3,7 +3,7 @@
  -------------------------------------------------------------------------
  API
  Copyright (C) 2020 by Curtis Conard
- https://github.com/cconard96/glpi-api-plugin
+ https://github.com/cconard96/glpi-proto-api
  -------------------------------------------------------------------------
  LICENSE
  This file is part of API.
@@ -37,7 +37,7 @@ function plugin_version_api()
 	   'version'      => PLUGIN_API_VERSION,
 	   'author'       => 'Curtis Conard',
 	   'license'      => 'GPLv2+',
-	   'homepage'     =>'https://github.com/cconard96/glpi-api-plugin',
+	   'homepage'     =>'https://github.com/cconard96/glpi-proto-api',
 	   'requirements' => [
 	      'glpi'   => [
 	         'min' => PLUGIN_API_MIN_GLPI,

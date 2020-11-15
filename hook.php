@@ -3,7 +3,7 @@
  -------------------------------------------------------------------------
  API
  Copyright (C) 2020 by Curtis Conard
- https://github.com/cconard96/glpi-api-plugin
+ https://github.com/cconard96/glpi-proto-api
  -------------------------------------------------------------------------
  LICENSE
  This file is part of API.
