@@ -1,5 +1,6 @@
 # New GLPI API System Prototype
-This GLPI plugin is a prototype replacement API system.
+This GLPI plugin is a prototype replacement API system derived from the OIMC project by CJ Development Studios.
+OIMC (Open IT Management Center) is a platform and abstraction layer for IT-related software.
 
 Implemented:
 - Any request to /plugins/api will list all available API versions, and their related information.
